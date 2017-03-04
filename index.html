@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>HotelApp</title>
+	<link rel="stylesheet" type="text/css" href="css/jquery.mobile.icons-1.4.5.min.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery.mobile.inline-png-1.4.5.min.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.5.min.css">
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+<body>
+	<div id="registro" data-role="page">
+		<div data-role="header">
+			<h1>Registro</h1>
+
+		<div class="ui-content">
+			<ul data-role="listview">
+				<li>
+					<input id="nombre" type="text" placeholder="Nombre">
+				</li>
+				<li>
+					<input id="email" type="text" placeholder="Email">
+				</li>
+				<li>
+					<input id="password" type="password" placeholder="Contraseña">
+				</li>
+				<li>
+					<input id="telefono" type="tel" placeholder="Telefono">
+				</li>
+				<li>
+					<a href="#">Toma tu foto</a>
+				</li>
+				<li id="fototomada">
+					
+				</li>
+			</ul>
+			<div data-role="footer" data-position="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li>
+							<a href="#" id="registrar" class="ui-btn-active">
+								Registrar
+							</a>
+						</li>
+						<li>
+							<a href="#iniciosesion">
+							Iniciar Sesion
+							</a>
+						</li>
+					</ul>
+					
+				</div>
+			</div>	
+		</div>	
+		</div>
+	</div>
+
+	<div id="iniciosesion" data-role="page">
+		<div data-role="header">
+			<h1>Iniciar Sesion</h1>
+		<div class="ui-content">
+			<ul data-role="listview">
+				<li data-role="list-divider">
+					Correo del usuario
+				</li>
+				<li>
+				 <input id="emailsesion" type="email" placeholder="Email">
+				</li>
+				<li data-role="list-divider">
+					Contraseña
+					
+				</li>
+				<li>
+					<input id="passwordsesion" type="password" placeholder="Contraseña">
+				</li>
+			</ul>
+			<div data-role="footer" data-postion="fixed">
+				<div data-role="navbar">
+					<ul>
+						<li>
+							<a id="botoniniciarsesion" href="#" class="ui-btn-active">
+								Iniciar Sesion
+							</a>
+						</li>
+					</ul>
+					
+				</div>
+				
+			</div>
+		</div>	
+			
+		</div>
+		
+	</div>
+
+	<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
+	<script type="text/javascript" src="js/actions.js"></script>
+</body>
+</html>
