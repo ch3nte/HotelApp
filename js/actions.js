@@ -116,6 +116,7 @@ var fn = {
 */
 $(fn.deviceready);
 
+
 //fn.init();
 
 
