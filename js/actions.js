@@ -72,6 +72,7 @@ var fn = {
 			alert(error);
 		}
 
+	},
 		enviarRegistro: function(nombreR, emailR, telefonoR, passwordR, fotoR){
 			$.ajax({
 				  method: "POST",
@@ -92,16 +93,15 @@ var fn = {
 				    	file.trasnferir(fotoURL);
 
 
-				    else
+				    }
+				    else{
 				    	alert("Error al enviar datos de registro"+mensaje);
 				    }
 				  });
 
 		}
 
-	}
-
-};
+	};
 
 /*
 *  LLAMAR AL OBJETO INIT
@@ -114,8 +114,8 @@ var fn = {
 *  PARA COMPILAR 
 *
 */
-$(deviceready);
+$(fn.deviceready);
 
-fn.init();
+//fn.init();
 
 
