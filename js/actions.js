@@ -10,8 +10,8 @@ var fn = {
 		* todos los eventos del "click" al HTML
 		*
 		*/
-		$("#botonregistrar").click(fn.registrar);
-		$("#tomarfoto").click(mc.abrirCamara);
+		$("#botonregistrar").tap(fn.registrar);
+		$("#tomarfoto").tap(mc.abrirCamara);
 
 
 	},
