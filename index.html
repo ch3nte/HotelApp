@@ -16,21 +16,21 @@
 		<div class="ui-content">
 			<ul data-role="listview">
 				<li>
-					<input id="nombre" type="text" placeholder="Nombre">
+					<input id="nombreregistro" type="text" placeholder="Nombre">
 				</li>
 				<li>
-					<input id="email" type="text" placeholder="Email">
+					<input id="emailregistro" type="text" placeholder="Email">
 				</li>
 				<li>
-					<input id="password" type="password" placeholder="Contraseña">
+					<input id="passwordregistro" type="password" placeholder="Contraseña">
 				</li>
 				<li>
-					<input id="telefono" type="tel" placeholder="Telefono">
+					<input id="telefonoregistro" type="tel" placeholder="Telefono">
 				</li>
 				<li>
-					<a href="#">Toma tu foto</a>
+					<a id="tomarfoto" href="#">Toma tu foto</a>
 				</li>
-				<li id="fototomada">
+				<li id="fototomadaregistro">
 					
 				</li>
 			</ul>
@@ -38,7 +38,7 @@
 				<div data-role="navbar">
 					<ul>
 						<li>
-							<a href="#" id="registrar" class="ui-btn-active">
+							<a href="#" id="botonregistrar" class="ui-btn-active">
 								Registrar
 							</a>
 						</li>
@@ -58,6 +58,7 @@
 	<div id="iniciosesion" data-role="page">
 		<div data-role="header">
 			<h1>Iniciar Sesion</h1>
+		</div>		
 		<div class="ui-content">
 			<ul data-role="listview">
 				<li data-role="list-divider">
@@ -148,6 +149,8 @@
 
 	<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
 	<script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
+	<script type="text/javascript" src="js/API/mediacapture.js"></script>
+	<script type="text/javascript" src="js/API/filetransfer.js"></script>
 	<script type="text/javascript" src="js/actions.js"></script>
 </body>
 </html>
