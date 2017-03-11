@@ -65,7 +65,7 @@ var fn = {
 			*Aquí vamos a registrar al usuario
 			*
 			*/
-			fn.enviarRegistro(nomnre, email, telefono, password, foto);
+			fn.enviarRegistro(nombre, email, telefono, password, foto);
 
 
 		}catch(error){
