@@ -56,7 +56,7 @@ var fn = {
 				throw new Error("El password es forzoso");
 			}
 
-			if(number.isNan(Number(telefono))){
+			if(Number.isNaN(Number(telefono))){
 				throw new Error("El telefono debe de ser numerico");
 			}
 
