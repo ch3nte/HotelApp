@@ -16,5 +16,6 @@ var mc = {
 	abrirCamara: function(){
 	navigator.device.capture.captureImage(mc.exito, mc.error, {limit:1});
 
-	}
-};
+	};
+	
+}

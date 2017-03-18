@@ -21,9 +21,14 @@ var file ={
 		optinos.fileKey = "foto";
 		options.fileName = "miFoto";
 		options.mimeType = "image/jpeg";
+		options.chunkedMode = false:
+		options.headers = {
+			conection: "close"
+		};
 
 		var ft = new FileTransfer();
-		ft.upload(fileURL, "http://www.colors.edu.mx/archivoTest.php", file.exito, file.error, options);
+		ft.upload(fileURL, encodeURI("http://www.colors.edu.mx/archivoTest.php", file.exito, file.error, options);
 
-	}
-};
+	};
+
+}
