@@ -90,7 +90,7 @@ var fn = {
 				    	/*transferir foto*/
 
 				    	var fotoURL = fotoR.src;
-				    	file.trasnferir(fotoURL);
+				    	file.transferir(fotoURL);
 
 
 				    }
