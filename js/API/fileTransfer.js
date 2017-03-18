@@ -1,6 +1,6 @@
 var file ={
 	exito: function(){
-		
+alert("exito");
 		window.localStorage.setItem("nombreUsuario", $("#nombreregistro").val());
 		window.location.href = "#home";
 
