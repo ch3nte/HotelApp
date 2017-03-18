@@ -12,23 +12,24 @@ var file ={
 
 	},
 
-	transferir:function(){
+	transferir:function(fileURL){
+		alert("Transfiriendo foto");
 		/*
 		* opciones de envio
 		*
 		**/
-		var options = new FileUploadOptions(fileURL);
+		var options = new FileUploadOptions();
 		optinos.fileKey = "foto";
 		options.fileName = "miFoto";
 		options.mimeType = "image/jpeg";
-		options.chunkedMode = false:
+		options.chunkedMode = false;
 		options.headers = {
-			conection: "close"
+			Conection: "close"
 		};
 
 		var ft = new FileTransfer();
-		ft.upload(fileURL, encodeURI("http://www.colors.edu.mx/archivoTest.php", file.exito, file.error, options);
+		ft.upload(fileURL, encodeURI("http://www.colors.edu.mx/archivoTest.php"), file.exito, file.error, options);
 
-	};
+	}
 
-}
+};
