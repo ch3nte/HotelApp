@@ -85,7 +85,7 @@ var fn = {
 				   	password: passwordR,
 				  	 }
 				})
-				  .done(function( mensaje ) {
+				  .done(function( mensaje ) {alert("AJAX Terminado");
 				    if (mensaje == 1){
 				    	/*transferir foto*/
 
