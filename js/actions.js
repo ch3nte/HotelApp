@@ -81,7 +81,7 @@ var fn = {
 
 				   	nombre: nombreR,
 				   	email: emailR,
-				   	telefono: telefonoR,
+				   	tel: telefonoR,
 				   	password: passwordR,
 				  	 }
 				})
