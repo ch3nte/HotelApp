@@ -7,7 +7,11 @@ var file ={
 	},
 
 
-	error:function(){
+	error:function(error){
+		alert(error.code);
+		alert(error.source);
+		alert(error.target);
+		alert("Error al enviar al servidor");
 
 
 	},
