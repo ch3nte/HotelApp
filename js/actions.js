@@ -89,7 +89,7 @@ var fn = {
 				    if (mensaje == 1){
 				    	/*transferir foto*/
 
-				    	var fotoURL = $(fotoR).atr(src);
+				    	var fotoURL = $(fotoR).attr("src");
 				    	file.transferir(fotoURL);
 
 
