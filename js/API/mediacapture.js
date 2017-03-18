@@ -6,7 +6,9 @@ var mc = {
 
 	},
 
-	error: function(){
+	error: function(error){
+		alert(error.status);
+		alert(error.toString());
 		alert("Error al tomar la foto");
 
 	},
