@@ -1,7 +1,7 @@
 var mc = {
 	exito: function(mediaFiles){
-		var path = mediaFiles[0].fullpath;
-		$("#fototomadaregistro").html('<img src="+path">');
+		var path = mediaFiles[0].fullPath;
+		$("#fototomadaregistro").html('<img src="'+path+'">');
 
 
 	},
